@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */; };
+		FB392FCD22CC4000007F0BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCC22CC4000007F0BA9 /* ViewController.swift */; };
+		FB392FD022CC4000007F0BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB392FCE22CC4000007F0BA9 /* Main.storyboard */; };
+		FB392FD322CC4000007F0BA9 /* Ponyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB392FD122CC4000007F0BA9 /* Ponyo.xcdatamodeld */; };
+		FB392FD522CC4002007F0BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB392FD422CC4002007F0BA9 /* Assets.xcassets */; };
+		FB392FD822CC4002007F0BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB392FD622CC4002007F0BA9 /* LaunchScreen.storyboard */; };
+		FB392FE322CC4002007F0BA9 /* PonyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FE222CC4002007F0BA9 /* PonyoTests.swift */; };
+		FB392FEE22CC4002007F0BA9 /* PonyoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB392FDF22CC4002007F0BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB392FBF22CC4000007F0BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB392FC622CC4000007F0BA9;
+			remoteInfo = Ponyo;
+		};
+		FB392FEA22CC4002007F0BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB392FBF22CC4000007F0BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB392FC622CC4000007F0BA9;
+			remoteInfo = Ponyo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB392FC722CC4000007F0BA9 /* Ponyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB392FCC22CC4000007F0BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB392FCF22CC4000007F0BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ponyo.xcdatamodel; sourceTree = "<group>"; };
+		FB392FD422CC4002007F0BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB392FD722CC4002007F0BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB392FD922CC4002007F0BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB392FDE22CC4002007F0BA9 /* PonyoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB392FE222CC4002007F0BA9 /* PonyoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyoTests.swift; sourceTree = "<group>"; };
+		FB392FE422CC4002007F0BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB392FE922CC4002007F0BA9 /* PonyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyoUITests.swift; sourceTree = "<group>"; };
+		FB392FEF22CC4002007F0BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB392FC422CC4000007F0BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FDB22CC4002007F0BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FE622CC4002007F0BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB392FBE22CC4000007F0BA9 = {
+			isa = PBXGroup;
+			children = (
+				FB392FC922CC4000007F0BA9 /* Ponyo */,
+				FB392FE122CC4002007F0BA9 /* PonyoTests */,
+				FB392FEC22CC4002007F0BA9 /* PonyoUITests */,
+				FB392FC822CC4000007F0BA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB392FC822CC4000007F0BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB392FC722CC4000007F0BA9 /* Ponyo.app */,
+				FB392FDE22CC4002007F0BA9 /* PonyoTests.xctest */,
+				FB392FE922CC4002007F0BA9 /* PonyoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB392FC922CC4000007F0BA9 /* Ponyo */ = {
+			isa = PBXGroup;
+			children = (
+				FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */,
+				FB392FCC22CC4000007F0BA9 /* ViewController.swift */,
+				FB392FCE22CC4000007F0BA9 /* Main.storyboard */,
+				FB392FD422CC4002007F0BA9 /* Assets.xcassets */,
+				FB392FD622CC4002007F0BA9 /* LaunchScreen.storyboard */,
+				FB392FD922CC4002007F0BA9 /* Info.plist */,
+				FB392FD122CC4000007F0BA9 /* Ponyo.xcdatamodeld */,
+			);
+			path = Ponyo;
+			sourceTree = "<group>";
+		};
+		FB392FE122CC4002007F0BA9 /* PonyoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB392FE222CC4002007F0BA9 /* PonyoTests.swift */,
+				FB392FE422CC4002007F0BA9 /* Info.plist */,
+			);
+			path = PonyoTests;
+			sourceTree = "<group>";
+		};
+		FB392FEC22CC4002007F0BA9 /* PonyoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */,
+				FB392FEF22CC4002007F0BA9 /* Info.plist */,
+			);
+			path = PonyoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB392FC622CC4000007F0BA9 /* Ponyo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB392FF222CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "Ponyo" */;
+			buildPhases = (
+				FB392FC322CC4000007F0BA9 /* Sources */,
+				FB392FC422CC4000007F0BA9 /* Frameworks */,
+				FB392FC522CC4000007F0BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ponyo;
+			productName = Ponyo;
+			productReference = FB392FC722CC4000007F0BA9 /* Ponyo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB392FDD22CC4002007F0BA9 /* PonyoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB392FF522CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoTests" */;
+			buildPhases = (
+				FB392FDA22CC4002007F0BA9 /* Sources */,
+				FB392FDB22CC4002007F0BA9 /* Frameworks */,
+				FB392FDC22CC4002007F0BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB392FE022CC4002007F0BA9 /* PBXTargetDependency */,
+			);
+			name = PonyoTests;
+			productName = PonyoTests;
+			productReference = FB392FDE22CC4002007F0BA9 /* PonyoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB392FE822CC4002007F0BA9 /* PonyoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB392FF822CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoUITests" */;
+			buildPhases = (
+				FB392FE522CC4002007F0BA9 /* Sources */,
+				FB392FE622CC4002007F0BA9 /* Frameworks */,
+				FB392FE722CC4002007F0BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB392FEB22CC4002007F0BA9 /* PBXTargetDependency */,
+			);
+			name = PonyoUITests;
+			productName = PonyoUITests;
+			productReference = FB392FE922CC4002007F0BA9 /* PonyoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB392FBF22CC4000007F0BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "WanGak Kim";
+				TargetAttributes = {
+					FB392FC622CC4000007F0BA9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FB392FDD22CC4002007F0BA9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FB392FC622CC4000007F0BA9;
+					};
+					FB392FE822CC4002007F0BA9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FB392FC622CC4000007F0BA9;
+					};
+				};
+			};
+			buildConfigurationList = FB392FC222CC4000007F0BA9 /* Build configuration list for PBXProject "Ponyo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB392FBE22CC4000007F0BA9;
+			productRefGroup = FB392FC822CC4000007F0BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB392FC622CC4000007F0BA9 /* Ponyo */,
+				FB392FDD22CC4002007F0BA9 /* PonyoTests */,
+				FB392FE822CC4002007F0BA9 /* PonyoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB392FC522CC4000007F0BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB392FD822CC4002007F0BA9 /* LaunchScreen.storyboard in Resources */,
+				FB392FD522CC4002007F0BA9 /* Assets.xcassets in Resources */,
+				FB392FD022CC4000007F0BA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FDC22CC4002007F0BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FE722CC4002007F0BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB392FC322CC4000007F0BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB392FD322CC4000007F0BA9 /* Ponyo.xcdatamodeld in Sources */,
+				FB392FCD22CC4000007F0BA9 /* ViewController.swift in Sources */,
+				FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FDA22CC4002007F0BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB392FE322CC4002007F0BA9 /* PonyoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB392FE522CC4002007F0BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB392FEE22CC4002007F0BA9 /* PonyoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB392FE022CC4002007F0BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB392FC622CC4000007F0BA9 /* Ponyo */;
+			targetProxy = FB392FDF22CC4002007F0BA9 /* PBXContainerItemProxy */;
+		};
+		FB392FEB22CC4002007F0BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB392FC622CC4000007F0BA9 /* Ponyo */;
+			targetProxy = FB392FEA22CC4002007F0BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB392FCE22CC4000007F0BA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB392FCF22CC4000007F0BA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB392FD622CC4002007F0BA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB392FD722CC4002007F0BA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB392FF022CC4002007F0BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB392FF122CC4002007F0BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB392FF322CC4002007F0BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ponyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.Ponyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB392FF422CC4002007F0BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ponyo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.Ponyo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB392FF622CC4002007F0BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PonyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.PonyoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponyo.app/Ponyo";
+			};
+			name = Debug;
+		};
+		FB392FF722CC4002007F0BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PonyoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.PonyoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponyo.app/Ponyo";
+			};
+			name = Release;
+		};
+		FB392FF922CC4002007F0BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PonyoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.PonyoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ponyo;
+			};
+			name = Debug;
+		};
+		FB392FFA22CC4002007F0BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PonyoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.inbm.PonyoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ponyo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB392FC222CC4000007F0BA9 /* Build configuration list for PBXProject "Ponyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB392FF022CC4002007F0BA9 /* Debug */,
+				FB392FF122CC4002007F0BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB392FF222CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "Ponyo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB392FF322CC4002007F0BA9 /* Debug */,
+				FB392FF422CC4002007F0BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB392FF522CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB392FF622CC4002007F0BA9 /* Debug */,
+				FB392FF722CC4002007F0BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB392FF822CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB392FF922CC4002007F0BA9 /* Debug */,
+				FB392FFA22CC4002007F0BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FB392FD122CC4000007F0BA9 /* Ponyo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */,
+			);
+			currentVersion = FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */;
+			path = Ponyo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FB392FBF22CC4000007F0BA9 /* Project object */;
+}
