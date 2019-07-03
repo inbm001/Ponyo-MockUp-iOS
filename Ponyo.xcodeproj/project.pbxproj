@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044F41EC89CAF0F8C49E92D1 /* Pods_PonyoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADEB453BF45B9A9F5F4FBC6 /* Pods_PonyoTests.framework */; };
+		4C22AAA0C1FCF215E2585431 /* Pods_Ponyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F47DFEAC598AFE36C425EC /* Pods_Ponyo.framework */; };
+		D16FF751C3B5E3C5D4ED230E /* Pods_PonyoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D68F9733BCF2C73D12A46E /* Pods_PonyoUITests.framework */; };
 		FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */; };
 		FB392FCD22CC4000007F0BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCC22CC4000007F0BA9 /* ViewController.swift */; };
 		FB392FD022CC4000007F0BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB392FCE22CC4000007F0BA9 /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07E517E782281F3D298E7E05 /* Pods-PonyoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonyoTests/Pods-PonyoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11457E37E834945F06BE6D9A /* Pods-Ponyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ponyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ponyo/Pods-Ponyo.debug.xcconfig"; sourceTree = "<group>"; };
+		35D68F9733BCF2C73D12A46E /* Pods_PonyoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonyoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AADF92C61694AA27F57F60 /* Pods-PonyoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PonyoUITests/Pods-PonyoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79A1B2BEA40A6994B4B086DE /* Pods-PonyoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonyoUITests/Pods-PonyoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92F47DFEAC598AFE36C425EC /* Pods_Ponyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ponyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40726A9F50144E50860EED3 /* Pods-Ponyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ponyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ponyo/Pods-Ponyo.release.xcconfig"; sourceTree = "<group>"; };
+		F7F2B7DB7D7DD83CDDC3AF98 /* Pods-PonyoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PonyoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PonyoTests/Pods-PonyoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FADEB453BF45B9A9F5F4FBC6 /* Pods_PonyoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonyoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB392FC722CC4000007F0BA9 /* Ponyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB392FCC22CC4000007F0BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C22AAA0C1FCF215E2585431 /* Pods_Ponyo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044F41EC89CAF0F8C49E92D1 /* Pods_PonyoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16FF751C3B5E3C5D4ED230E /* Pods_PonyoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5C2C6B750CB15CFACD86508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11457E37E834945F06BE6D9A /* Pods-Ponyo.debug.xcconfig */,
+				D40726A9F50144E50860EED3 /* Pods-Ponyo.release.xcconfig */,
+				07E517E782281F3D298E7E05 /* Pods-PonyoTests.debug.xcconfig */,
+				F7F2B7DB7D7DD83CDDC3AF98 /* Pods-PonyoTests.release.xcconfig */,
+				76AADF92C61694AA27F57F60 /* Pods-PonyoUITests.debug.xcconfig */,
+				79A1B2BEA40A6994B4B086DE /* Pods-PonyoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C695AB37B55E711206F1E908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92F47DFEAC598AFE36C425EC /* Pods_Ponyo.framework */,
+				FADEB453BF45B9A9F5F4FBC6 /* Pods_PonyoTests.framework */,
+				35D68F9733BCF2C73D12A46E /* Pods_PonyoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB392FBE22CC4000007F0BA9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FB392FE122CC4002007F0BA9 /* PonyoTests */,
 				FB392FEC22CC4002007F0BA9 /* PonyoUITests */,
 				FB392FC822CC4000007F0BA9 /* Products */,
+				C5C2C6B750CB15CFACD86508 /* Pods */,
+				C695AB37B55E711206F1E908 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB392FF222CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "Ponyo" */;
 			buildPhases = (
+				6A4E20AF91F470A9AD6FBBCF /* [CP] Check Pods Manifest.lock */,
 				FB392FC322CC4000007F0BA9 /* Sources */,
 				FB392FC422CC4000007F0BA9 /* Frameworks */,
 				FB392FC522CC4000007F0BA9 /* Resources */,
+				F13E0750404FBD42F36D586E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB392FF522CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoTests" */;
 			buildPhases = (
+				7FC80304F185F45A3289FFFB /* [CP] Check Pods Manifest.lock */,
 				FB392FDA22CC4002007F0BA9 /* Sources */,
 				FB392FDB22CC4002007F0BA9 /* Frameworks */,
 				FB392FDC22CC4002007F0BA9 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB392FF822CC4002007F0BA9 /* Build configuration list for PBXNativeTarget "PonyoUITests" */;
 			buildPhases = (
+				25242D1CA2E03C1AB0E74CC8 /* [CP] Check Pods Manifest.lock */,
 				FB392FE522CC4002007F0BA9 /* Sources */,
 				FB392FE622CC4002007F0BA9 /* Frameworks */,
 				FB392FE722CC4002007F0BA9 /* Resources */,
@@ -253,6 +297,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25242D1CA2E03C1AB0E74CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PonyoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4E20AF91F470A9AD6FBBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ponyo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC80304F185F45A3289FFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PonyoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F13E0750404FBD42F36D586E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ponyo/Pods-Ponyo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/NYTPhotoViewer/NYTPhotoViewer.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework",
+				"${PODS_ROOT}/SendBirdSDK/SendBirdSDK.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYTPhotoViewer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKImageCropper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SendBirdSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/SendBirdSDK.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ponyo/Pods-Ponyo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB392FC322CC4000007F0BA9 /* Sources */ = {
@@ -434,6 +581,7 @@
 		};
 		FB392FF322CC4002007F0BA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11457E37E834945F06BE6D9A /* Pods-Ponyo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +599,7 @@
 		};
 		FB392FF422CC4002007F0BA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40726A9F50144E50860EED3 /* Pods-Ponyo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +617,7 @@
 		};
 		FB392FF622CC4002007F0BA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E517E782281F3D298E7E05 /* Pods-PonyoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +638,7 @@
 		};
 		FB392FF722CC4002007F0BA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F2B7DB7D7DD83CDDC3AF98 /* Pods-PonyoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +659,7 @@
 		};
 		FB392FF922CC4002007F0BA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76AADF92C61694AA27F57F60 /* Pods-PonyoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +679,7 @@
 		};
 		FB392FFA22CC4002007F0BA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A1B2BEA40A6994B4B086DE /* Pods-PonyoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
