@@ -17,6 +17,118 @@
 		FB392FD822CC4002007F0BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB392FD622CC4002007F0BA9 /* LaunchScreen.storyboard */; };
 		FB392FE322CC4002007F0BA9 /* PonyoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FE222CC4002007F0BA9 /* PonyoTests.swift */; };
 		FB392FEE22CC4002007F0BA9 /* PonyoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */; };
+		FBE8480822CF1B190083D66C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8480722CF1B190083D66C /* LoginViewController.swift */; };
+		FBE8488B22CF1BDD0083D66C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8480B22CF1BDC0083D66C /* LoginViewController.swift */; };
+		FBE8488C22CF1BDD0083D66C /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8480D22CF1BDC0083D66C /* DownloadManager.swift */; };
+		FBE8488D22CF1BDD0083D66C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8480E22CF1BDC0083D66C /* MainTabBarController.swift */; };
+		FBE8489022CF1BDD0083D66C /* Ponyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBE8481722CF1BDC0083D66C /* Ponyo.xcdatamodeld */; };
+		FBE8489122CF1BDD0083D66C /* GroupChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8481B22CF1BDC0083D66C /* GroupChannelsViewController.swift */; };
+		FBE8489222CF1BDD0083D66C /* GroupChannelsUpdateListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8481C22CF1BDC0083D66C /* GroupChannelsUpdateListDelegate.swift */; };
+		FBE8489322CF1BDD0083D66C /* GroupChannelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8481D22CF1BDC0083D66C /* GroupChannelsViewController.xib */; };
+		FBE8489422CF1BDD0083D66C /* GroupChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8481F22CF1BDC0083D66C /* GroupChannelTableViewCell.xib */; };
+		FBE8489522CF1BDD0083D66C /* GroupChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482022CF1BDC0083D66C /* GroupChannelTableViewCell.swift */; };
+		FBE8489622CF1BDD0083D66C /* GroupChannelsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482122CF1BDC0083D66C /* GroupChannelsNavigationController.swift */; };
+		FBE8489722CF1BDD0083D66C /* GroupChannelInviteMemberDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482322CF1BDC0083D66C /* GroupChannelInviteMemberDelegate.swift */; };
+		FBE8489822CF1BDD0083D66C /* GroupChannelCoverImageNameSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8482422CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.xib */; };
+		FBE8489922CF1BDD0083D66C /* GroupChannelCoverImageNameSettingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482522CF1BDC0083D66C /* GroupChannelCoverImageNameSettingDelegate.swift */; };
+		FBE8489A22CF1BDD0083D66C /* GroupChannelCoverImageNameSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482622CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.swift */; };
+		FBE8489B22CF1BDD0083D66C /* GroupChannelInviteMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482722CF1BDC0083D66C /* GroupChannelInviteMemberViewController.swift */; };
+		FBE8489C22CF1BDD0083D66C /* GroupChannelSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482822CF1BDC0083D66C /* GroupChannelSettingsViewController.swift */; };
+		FBE8489D22CF1BDD0083D66C /* GroupChannelSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8482922CF1BDC0083D66C /* GroupChannelSettingsViewController.xib */; };
+		FBE8489E22CF1BDD0083D66C /* GroupChannelInviteMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482B22CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.swift */; };
+		FBE8489F22CF1BDD0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482C22CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.swift */; };
+		FBE848A022CF1BDD0083D66C /* GroupChannelSettingsNotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8482D22CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.xib */; };
+		FBE848A122CF1BDD0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482E22CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.swift */; };
+		FBE848A222CF1BDD0083D66C /* GroupChannelSettingsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8482F22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.swift */; };
+		FBE848A322CF1BDD0083D66C /* GroupChannelSettingsTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483022CF1BDC0083D66C /* GroupChannelSettingsTableViewCellDelegate.swift */; };
+		FBE848A422CF1BDD0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483122CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.swift */; };
+		FBE848A522CF1BDD0083D66C /* GroupChannelSettingsMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483222CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.swift */; };
+		FBE848A622CF1BDD0083D66C /* GroupChannelSettingsNotificationsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483322CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.swift */; };
+		FBE848A722CF1BDD0083D66C /* GroupChannelInviteMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483422CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.xib */; };
+		FBE848A822CF1BDD0083D66C /* GroupChannelSettingsBlankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483522CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.swift */; };
+		FBE848A922CF1BDD0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483622CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.xib */; };
+		FBE848AA22CF1BDD0083D66C /* GroupChannelSettingsMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483722CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.xib */; };
+		FBE848AB22CF1BDD0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483822CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.xib */; };
+		FBE848AC22CF1BDD0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483922CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.xib */; };
+		FBE848AD22CF1BDD0083D66C /* GroupChannelSettingsSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483A22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.xib */; };
+		FBE848AE22CF1BDD0083D66C /* GroupChannelSettingsBlankTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483B22CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.xib */; };
+		FBE848AF22CF1BDD0083D66C /* GroupChannelInviteMemberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483C22CF1BDC0083D66C /* GroupChannelInviteMemberViewController.xib */; };
+		FBE848B022CF1BDD0083D66C /* GroupChannelSettingsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8483D22CF1BDC0083D66C /* GroupChannelSettingsDelegate.swift */; };
+		FBE848B122CF1BDD0083D66C /* GroupChannelChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8483F22CF1BDC0083D66C /* GroupChannelChatViewController.xib */; };
+		FBE848B222CF1BDD0083D66C /* GroupChannelChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484022CF1BDC0083D66C /* GroupChannelChatViewController.swift */; };
+		FBE848B322CF1BDD0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484222CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.swift */; };
+		FBE848B422CF1BDD0083D66C /* GroupChannelIncomingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484322CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.swift */; };
+		FBE848B522CF1BDD0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484422CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.swift */; };
+		FBE848B622CF1BDD0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484522CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.swift */; };
+		FBE848B722CF1BDD0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484622CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.xib */; };
+		FBE848B822CF1BDD0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484722CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.swift */; };
+		FBE848B922CF1BDD0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484822CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.xib */; };
+		FBE848BA22CF1BDD0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484922CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.swift */; };
+		FBE848BB22CF1BDD0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484A22CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib */; };
+		FBE848BC22CF1BDD0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484B22CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.swift */; };
+		FBE848BD22CF1BDD0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484C22CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.xib */; };
+		FBE848BE22CF1BDD0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484D22CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.xib */; };
+		FBE848BF22CF1BDD0083D66C /* GroupChannelIncomingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8484E22CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.xib */; };
+		FBE848C022CF1BDD0083D66C /* GroupChannelMessageTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8484F22CF1BDC0083D66C /* GroupChannelMessageTableViewCellDelegate.swift */; };
+		FBE848C122CF1BDD0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485022CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift */; };
+		FBE848C222CF1BDD0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8485122CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.xib */; };
+		FBE848C322CF1BDD0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485222CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.swift */; };
+		FBE848C422CF1BDD0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8485322CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.xib */; };
+		FBE848C522CF1BDD0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8485422CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.xib */; };
+		FBE848C722CF1BDD0083D66C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485722CF1BDD0083D66C /* Constants.swift */; };
+		FBE848C822CF1BDD0083D66C /* CustomProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485922CF1BDD0083D66C /* CustomProgressCircle.swift */; };
+		FBE848C922CF1BDD0083D66C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485A22CF1BDD0083D66C /* CustomButton.swift */; };
+		FBE848CA22CF1BDD0083D66C /* FLAnimatedImageView+ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485B22CF1BDD0083D66C /* FLAnimatedImageView+ImageLoader.swift */; };
+		FBE848CB22CF1BDD0083D66C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485C22CF1BDD0083D66C /* CustomTextField.swift */; };
+		FBE848CC22CF1BDD0083D66C /* CustomActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485D22CF1BDD0083D66C /* CustomActivityIndicatorView.swift */; };
+		FBE848CD22CF1BDD0083D66C /* String+SendBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485E22CF1BDD0083D66C /* String+SendBird.swift */; };
+		FBE848CE22CF1BDD0083D66C /* NotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8485F22CF1BDD0083D66C /* NotificationDelegate.swift */; };
+		FBE848CF22CF1BDD0083D66C /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486122CF1BDD0083D66C /* UIViewController+Utils.swift */; };
+		FBE848D022CF1BDD0083D66C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486222CF1BDD0083D66C /* Utils.swift */; };
+		FBE848D122CF1BDD0083D66C /* PhotoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486422CF1BDD0083D66C /* PhotoViewer.swift */; };
+		FBE848D222CF1BDD0083D66C /* CustomPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486622CF1BDD0083D66C /* CustomPhotosViewController.swift */; };
+		FBE848D322CF1BDD0083D66C /* Array+SendBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486722CF1BDD0083D66C /* Array+SendBird.swift */; };
+		FBE848D422CF1BDD0083D66C /* SettingsTimePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486922CF1BDD0083D66C /* SettingsTimePickerDelegate.swift */; };
+		FBE848D522CF1BDD0083D66C /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486A22CF1BDD0083D66C /* SettingsNavigationController.swift */; };
+		FBE848D622CF1BDD0083D66C /* SettingsBlockedUserListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8486B22CF1BDD0083D66C /* SettingsBlockedUserListViewController.xib */; };
+		FBE848D722CF1BDD0083D66C /* UserProfileImageNameSettingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486C22CF1BDD0083D66C /* UserProfileImageNameSettingDelegate.swift */; };
+		FBE848D822CF1BDD0083D66C /* SettingsTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486D22CF1BDD0083D66C /* SettingsTableViewCellDelegate.swift */; };
+		FBE848D922CF1BDD0083D66C /* UpdateUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8486E22CF1BDD0083D66C /* UpdateUserProfileViewController.swift */; };
+		FBE848DA22CF1BDD0083D66C /* UpdateUserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8486F22CF1BDD0083D66C /* UpdateUserProfileViewController.xib */; };
+		FBE848DB22CF1BDD0083D66C /* SettingsSignOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487122CF1BDD0083D66C /* SettingsSignOutTableViewCell.xib */; };
+		FBE848DC22CF1BDD0083D66C /* SettingsSignOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487222CF1BDD0083D66C /* SettingsSignOutTableViewCell.swift */; };
+		FBE848DD22CF1BDD0083D66C /* SettingsTimePickerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487322CF1BDD0083D66C /* SettingsTimePickerTableViewCell.xib */; };
+		FBE848DE22CF1BDD0083D66C /* BlockedUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487422CF1BDD0083D66C /* BlockedUserTableViewCell.xib */; };
+		FBE848DF22CF1BDD0083D66C /* SettingsVersionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487522CF1BDD0083D66C /* SettingsVersionTableViewCell.swift */; };
+		FBE848E022CF1BDD0083D66C /* SettingsVersionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487622CF1BDD0083D66C /* SettingsVersionTableViewCell.xib */; };
+		FBE848E122CF1BDD0083D66C /* SettingsTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487722CF1BDD0083D66C /* SettingsTimeTableViewCell.swift */; };
+		FBE848E222CF1BDD0083D66C /* SettingsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487822CF1BDD0083D66C /* SettingsSectionTableViewCell.swift */; };
+		FBE848E322CF1BDD0083D66C /* BlockedUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487922CF1BDD0083D66C /* BlockedUserTableViewCell.swift */; };
+		FBE848E422CF1BDD0083D66C /* SettingsSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487A22CF1BDD0083D66C /* SettingsSwitchTableViewCell.swift */; };
+		FBE848E522CF1BDD0083D66C /* SettingsSectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487B22CF1BDD0083D66C /* SettingsSectionTableViewCell.xib */; };
+		FBE848E622CF1BDD0083D66C /* SettingsSwitchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487C22CF1BDD0083D66C /* SettingsSwitchTableViewCell.xib */; };
+		FBE848E722CF1BDD0083D66C /* SettingsGeneralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487D22CF1BDD0083D66C /* SettingsGeneralTableViewCell.xib */; };
+		FBE848E822CF1BDD0083D66C /* SettingsProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8487E22CF1BDD0083D66C /* SettingsProfileTableViewCell.swift */; };
+		FBE848E922CF1BDD0083D66C /* SettingsProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8487F22CF1BDD0083D66C /* SettingsProfileTableViewCell.xib */; };
+		FBE848EA22CF1BDD0083D66C /* SettingsDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8488022CF1BDD0083D66C /* SettingsDescriptionTableViewCell.xib */; };
+		FBE848EB22CF1BDD0083D66C /* SettingsTimePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8488122CF1BDD0083D66C /* SettingsTimePickerTableViewCell.swift */; };
+		FBE848EC22CF1BDD0083D66C /* SettingsDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8488222CF1BDD0083D66C /* SettingsDescriptionTableViewCell.swift */; };
+		FBE848ED22CF1BDD0083D66C /* SettingsGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8488322CF1BDD0083D66C /* SettingsGeneralTableViewCell.swift */; };
+		FBE848EE22CF1BDD0083D66C /* SettingsTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8488422CF1BDD0083D66C /* SettingsTimeTableViewCell.xib */; };
+		FBE848EF22CF1BDD0083D66C /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8488522CF1BDD0083D66C /* SettingsViewController.xib */; };
+		FBE848F022CF1BDD0083D66C /* SettingsBlockedUserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8488622CF1BDD0083D66C /* SettingsBlockedUserListViewController.swift */; };
+		FBE848F122CF1BDD0083D66C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8488722CF1BDD0083D66C /* SettingsViewController.swift */; };
+		FBE848F222CF1BDD0083D66C /* loading_typing.gif in Resources */ = {isa = PBXBuildFile; fileRef = FBE8488922CF1BDD0083D66C /* loading_typing.gif */; };
+		FBE848FC22CF1D4C0083D66C /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE848FA22CF1D4C0083D66C /* UserProfileViewController.swift */; };
+		FBE848FD22CF1D4C0083D66C /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE848FB22CF1D4C0083D66C /* UserProfileViewController.xib */; };
+		FBE8490822CF1EB80083D66C /* CreateGroupChannelViewControllerA.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE848FF22CF1EB80083D66C /* CreateGroupChannelViewControllerA.xib */; };
+		FBE8490922CF1EB80083D66C /* CreateGroupChannelViewControllerB.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8490022CF1EB80083D66C /* CreateGroupChannelViewControllerB.xib */; };
+		FBE8490A22CF1EB80083D66C /* CreateGroupChannelNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8490122CF1EB80083D66C /* CreateGroupChannelNavigationController.swift */; };
+		FBE8490B22CF1EB80083D66C /* CreateGroupChannelViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8490222CF1EB80083D66C /* CreateGroupChannelViewControllerDelegate.swift */; };
+		FBE8490C22CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8490422CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.swift */; };
+		FBE8490D22CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE8490522CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.xib */; };
+		FBE8490E22CF1EB80083D66C /* CreateGroupChannelViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8490622CF1EB80083D66C /* CreateGroupChannelViewControllerB.swift */; };
+		FBE8490F22CF1EB80083D66C /* CreateGroupChannelViewControllerA.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8490722CF1EB80083D66C /* CreateGroupChannelViewControllerA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +172,118 @@
 		FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyoUITests.swift; sourceTree = "<group>"; };
 		FB392FEF22CC4002007F0BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE8480622CF18EB0083D66C /* Ponyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ponyo.entitlements; sourceTree = "<group>"; };
+		FBE8480722CF1B190083D66C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBE8480B22CF1BDC0083D66C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FBE8480D22CF1BDC0083D66C /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		FBE8480E22CF1BDC0083D66C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		FBE8481822CF1BDC0083D66C /* Ponyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ponyo.xcdatamodel; sourceTree = "<group>"; };
+		FBE8481B22CF1BDC0083D66C /* GroupChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelsViewController.swift; sourceTree = "<group>"; };
+		FBE8481C22CF1BDC0083D66C /* GroupChannelsUpdateListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelsUpdateListDelegate.swift; sourceTree = "<group>"; };
+		FBE8481D22CF1BDC0083D66C /* GroupChannelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelsViewController.xib; sourceTree = "<group>"; };
+		FBE8481F22CF1BDC0083D66C /* GroupChannelTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8482022CF1BDC0083D66C /* GroupChannelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8482122CF1BDC0083D66C /* GroupChannelsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelsNavigationController.swift; sourceTree = "<group>"; };
+		FBE8482322CF1BDC0083D66C /* GroupChannelInviteMemberDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelInviteMemberDelegate.swift; sourceTree = "<group>"; };
+		FBE8482422CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelCoverImageNameSettingViewController.xib; sourceTree = "<group>"; };
+		FBE8482522CF1BDC0083D66C /* GroupChannelCoverImageNameSettingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelCoverImageNameSettingDelegate.swift; sourceTree = "<group>"; };
+		FBE8482622CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelCoverImageNameSettingViewController.swift; sourceTree = "<group>"; };
+		FBE8482722CF1BDC0083D66C /* GroupChannelInviteMemberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelInviteMemberViewController.swift; sourceTree = "<group>"; };
+		FBE8482822CF1BDC0083D66C /* GroupChannelSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsViewController.swift; sourceTree = "<group>"; };
+		FBE8482922CF1BDC0083D66C /* GroupChannelSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsViewController.xib; sourceTree = "<group>"; };
+		FBE8482B22CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelInviteMemberTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8482C22CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsChannelCoverNameTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8482D22CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsNotificationsTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8482E22CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsInviteMemberTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8482F22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsSectionTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8483022CF1BDC0083D66C /* GroupChannelSettingsTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		FBE8483122CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsLeaveChatTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8483222CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsMemberTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8483322CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsNotificationsTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8483422CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelInviteMemberTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483522CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsBlankTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8483622CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsLeaveChatTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483722CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsMemberTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483822CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsInviteMemberTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483922CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsChannelCoverNameTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483A22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsSectionTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483B22CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelSettingsBlankTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8483C22CF1BDC0083D66C /* GroupChannelInviteMemberViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelInviteMemberViewController.xib; sourceTree = "<group>"; };
+		FBE8483D22CF1BDC0083D66C /* GroupChannelSettingsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelSettingsDelegate.swift; sourceTree = "<group>"; };
+		FBE8483F22CF1BDC0083D66C /* GroupChannelChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelChatViewController.xib; sourceTree = "<group>"; };
+		FBE8484022CF1BDC0083D66C /* GroupChannelChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelChatViewController.swift; sourceTree = "<group>"; };
+		FBE8484222CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelNeutralAdminMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484322CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelIncomingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484422CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelOutgoingAudioFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484522CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelOutgoingGeneralFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484622CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelIncomingImageVideoFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484722CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelIncomingAudioFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484822CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelOutgoingAudioFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484922CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelOutgoingUserMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484A22CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484B22CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelIncomingGeneralFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8484C22CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelNeutralAdminMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484D22CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelOutgoingGeneralFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484E22CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelIncomingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8484F22CF1BDC0083D66C /* GroupChannelMessageTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelMessageTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		FBE8485022CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8485122CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelIncomingAudioFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8485222CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupChannelIncomingImageVideoFileMessageTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8485322CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelIncomingGeneralFileMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8485422CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupChannelOutgoingUserMessageTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8485722CF1BDD0083D66C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBE8485922CF1BDD0083D66C /* CustomProgressCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProgressCircle.swift; sourceTree = "<group>"; };
+		FBE8485A22CF1BDD0083D66C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FBE8485B22CF1BDD0083D66C /* FLAnimatedImageView+ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FLAnimatedImageView+ImageLoader.swift"; sourceTree = "<group>"; };
+		FBE8485C22CF1BDD0083D66C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FBE8485D22CF1BDD0083D66C /* CustomActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomActivityIndicatorView.swift; sourceTree = "<group>"; };
+		FBE8485E22CF1BDD0083D66C /* String+SendBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SendBird.swift"; sourceTree = "<group>"; };
+		FBE8485F22CF1BDD0083D66C /* NotificationDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationDelegate.swift; sourceTree = "<group>"; };
+		FBE8486122CF1BDD0083D66C /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		FBE8486222CF1BDD0083D66C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FBE8486422CF1BDD0083D66C /* PhotoViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewer.swift; sourceTree = "<group>"; };
+		FBE8486622CF1BDD0083D66C /* CustomPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPhotosViewController.swift; sourceTree = "<group>"; };
+		FBE8486722CF1BDD0083D66C /* Array+SendBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+SendBird.swift"; sourceTree = "<group>"; };
+		FBE8486922CF1BDD0083D66C /* SettingsTimePickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTimePickerDelegate.swift; sourceTree = "<group>"; };
+		FBE8486A22CF1BDD0083D66C /* SettingsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
+		FBE8486B22CF1BDD0083D66C /* SettingsBlockedUserListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsBlockedUserListViewController.xib; sourceTree = "<group>"; };
+		FBE8486C22CF1BDD0083D66C /* UserProfileImageNameSettingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileImageNameSettingDelegate.swift; sourceTree = "<group>"; };
+		FBE8486D22CF1BDD0083D66C /* SettingsTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		FBE8486E22CF1BDD0083D66C /* UpdateUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateUserProfileViewController.swift; sourceTree = "<group>"; };
+		FBE8486F22CF1BDD0083D66C /* UpdateUserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdateUserProfileViewController.xib; sourceTree = "<group>"; };
+		FBE8487122CF1BDD0083D66C /* SettingsSignOutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsSignOutTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487222CF1BDD0083D66C /* SettingsSignOutTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSignOutTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487322CF1BDD0083D66C /* SettingsTimePickerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTimePickerTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487422CF1BDD0083D66C /* BlockedUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlockedUserTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487522CF1BDD0083D66C /* SettingsVersionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVersionTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487622CF1BDD0083D66C /* SettingsVersionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsVersionTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487722CF1BDD0083D66C /* SettingsTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTimeTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487822CF1BDD0083D66C /* SettingsSectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSectionTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487922CF1BDD0083D66C /* BlockedUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockedUserTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487A22CF1BDD0083D66C /* SettingsSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487B22CF1BDD0083D66C /* SettingsSectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsSectionTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487C22CF1BDD0083D66C /* SettingsSwitchTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsSwitchTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487D22CF1BDD0083D66C /* SettingsGeneralTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsGeneralTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8487E22CF1BDD0083D66C /* SettingsProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsProfileTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8487F22CF1BDD0083D66C /* SettingsProfileTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsProfileTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8488022CF1BDD0083D66C /* SettingsDescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8488122CF1BDD0083D66C /* SettingsTimePickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTimePickerTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8488222CF1BDD0083D66C /* SettingsDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8488322CF1BDD0083D66C /* SettingsGeneralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsGeneralTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8488422CF1BDD0083D66C /* SettingsTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsTimeTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8488522CF1BDD0083D66C /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		FBE8488622CF1BDD0083D66C /* SettingsBlockedUserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsBlockedUserListViewController.swift; sourceTree = "<group>"; };
+		FBE8488722CF1BDD0083D66C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FBE8488922CF1BDD0083D66C /* loading_typing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading_typing.gif; sourceTree = "<group>"; };
+		FBE848FA22CF1D4C0083D66C /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		FBE848FB22CF1D4C0083D66C /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		FBE848FF22CF1EB80083D66C /* CreateGroupChannelViewControllerA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGroupChannelViewControllerA.xib; sourceTree = "<group>"; };
+		FBE8490022CF1EB80083D66C /* CreateGroupChannelViewControllerB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateGroupChannelViewControllerB.xib; sourceTree = "<group>"; };
+		FBE8490122CF1EB80083D66C /* CreateGroupChannelNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelNavigationController.swift; sourceTree = "<group>"; };
+		FBE8490222CF1EB80083D66C /* CreateGroupChannelViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FBE8490422CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectGroupChannelMemberTableViewCell.swift; sourceTree = "<group>"; };
+		FBE8490522CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectGroupChannelMemberTableViewCell.xib; sourceTree = "<group>"; };
+		FBE8490622CF1EB80083D66C /* CreateGroupChannelViewControllerB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelViewControllerB.swift; sourceTree = "<group>"; };
+		FBE8490722CF1EB80083D66C /* CreateGroupChannelViewControllerA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupChannelViewControllerA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +362,17 @@
 		FB392FC922CC4000007F0BA9 /* Ponyo */ = {
 			isa = PBXGroup;
 			children = (
+				FBE848F422CF1CF40083D66C /* UserProfile */,
+				FBE8480F22CF1BDC0083D66C /* Channel */,
+				FBE8480C22CF1BDC0083D66C /* DownloadManager */,
+				FBE8481922CF1BDC0083D66C /* GroupChannel */,
+				FBE8488822CF1BDD0083D66C /* Images */,
+				FBE8480922CF1B200083D66C /* Login */,
+				FBE8480A22CF1BDC0083D66C /* Login */,
+				FBE8480E22CF1BDC0083D66C /* MainTabBarController.swift */,
+				FBE8485622CF1BDD0083D66C /* Misc */,
+				FBE8481722CF1BDC0083D66C /* Ponyo.xcdatamodeld */,
+				FBE8486822CF1BDD0083D66C /* Settings */,
 				FBE8480622CF18EB0083D66C /* Ponyo.entitlements */,
 				FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */,
 				FB392FCE22CC4000007F0BA9 /* Main.storyboard */,
@@ -165,6 +400,299 @@
 				FB392FEF22CC4002007F0BA9 /* Info.plist */,
 			);
 			path = PonyoUITests;
+			sourceTree = "<group>";
+		};
+		FBE8480922CF1B200083D66C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8480722CF1B190083D66C /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FBE8480A22CF1BDC0083D66C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8480B22CF1BDC0083D66C /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FBE8480C22CF1BDC0083D66C /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8480D22CF1BDC0083D66C /* DownloadManager.swift */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		FBE8480F22CF1BDC0083D66C /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8481022CF1BDC0083D66C /* Channels */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		FBE8481022CF1BDC0083D66C /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8481122CF1BDC0083D66C /* CreateChannel */,
+			);
+			path = Channels;
+			sourceTree = "<group>";
+		};
+		FBE8481122CF1BDC0083D66C /* CreateChannel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CreateChannel;
+			sourceTree = "<group>";
+		};
+		FBE8481922CF1BDC0083D66C /* GroupChannel */ = {
+			isa = PBXGroup;
+			children = (
+				FBE848FE22CF1EB80083D66C /* CreateGroupChannel */,
+				FBE8481A22CF1BDC0083D66C /* GroupChannels */,
+				FBE8482222CF1BDC0083D66C /* GroupChannelSettings */,
+				FBE8483E22CF1BDC0083D66C /* GroupChannelChat */,
+			);
+			path = GroupChannel;
+			sourceTree = "<group>";
+		};
+		FBE8481A22CF1BDC0083D66C /* GroupChannels */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8481B22CF1BDC0083D66C /* GroupChannelsViewController.swift */,
+				FBE8481C22CF1BDC0083D66C /* GroupChannelsUpdateListDelegate.swift */,
+				FBE8481D22CF1BDC0083D66C /* GroupChannelsViewController.xib */,
+				FBE8481E22CF1BDC0083D66C /* ViewCells */,
+				FBE8482122CF1BDC0083D66C /* GroupChannelsNavigationController.swift */,
+			);
+			path = GroupChannels;
+			sourceTree = "<group>";
+		};
+		FBE8481E22CF1BDC0083D66C /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8481F22CF1BDC0083D66C /* GroupChannelTableViewCell.xib */,
+				FBE8482022CF1BDC0083D66C /* GroupChannelTableViewCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		FBE8482222CF1BDC0083D66C /* GroupChannelSettings */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8482322CF1BDC0083D66C /* GroupChannelInviteMemberDelegate.swift */,
+				FBE8482422CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.xib */,
+				FBE8482522CF1BDC0083D66C /* GroupChannelCoverImageNameSettingDelegate.swift */,
+				FBE8482622CF1BDC0083D66C /* GroupChannelCoverImageNameSettingViewController.swift */,
+				FBE8482722CF1BDC0083D66C /* GroupChannelInviteMemberViewController.swift */,
+				FBE8482822CF1BDC0083D66C /* GroupChannelSettingsViewController.swift */,
+				FBE8482922CF1BDC0083D66C /* GroupChannelSettingsViewController.xib */,
+				FBE8482A22CF1BDC0083D66C /* ViewCells */,
+				FBE8483C22CF1BDC0083D66C /* GroupChannelInviteMemberViewController.xib */,
+				FBE8483D22CF1BDC0083D66C /* GroupChannelSettingsDelegate.swift */,
+			);
+			path = GroupChannelSettings;
+			sourceTree = "<group>";
+		};
+		FBE8482A22CF1BDC0083D66C /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8482B22CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.swift */,
+				FBE8482C22CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.swift */,
+				FBE8482D22CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.xib */,
+				FBE8482E22CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.swift */,
+				FBE8482F22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.swift */,
+				FBE8483022CF1BDC0083D66C /* GroupChannelSettingsTableViewCellDelegate.swift */,
+				FBE8483122CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.swift */,
+				FBE8483222CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.swift */,
+				FBE8483322CF1BDC0083D66C /* GroupChannelSettingsNotificationsTableViewCell.swift */,
+				FBE8483422CF1BDC0083D66C /* GroupChannelInviteMemberTableViewCell.xib */,
+				FBE8483522CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.swift */,
+				FBE8483622CF1BDC0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.xib */,
+				FBE8483722CF1BDC0083D66C /* GroupChannelSettingsMemberTableViewCell.xib */,
+				FBE8483822CF1BDC0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.xib */,
+				FBE8483922CF1BDC0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.xib */,
+				FBE8483A22CF1BDC0083D66C /* GroupChannelSettingsSectionTableViewCell.xib */,
+				FBE8483B22CF1BDC0083D66C /* GroupChannelSettingsBlankTableViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		FBE8483E22CF1BDC0083D66C /* GroupChannelChat */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8483F22CF1BDC0083D66C /* GroupChannelChatViewController.xib */,
+				FBE8484022CF1BDC0083D66C /* GroupChannelChatViewController.swift */,
+				FBE8484122CF1BDC0083D66C /* ViewCells */,
+			);
+			path = GroupChannelChat;
+			sourceTree = "<group>";
+		};
+		FBE8484122CF1BDC0083D66C /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8484222CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.swift */,
+				FBE8484322CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.swift */,
+				FBE8484422CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.swift */,
+				FBE8484522CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.swift */,
+				FBE8484622CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.xib */,
+				FBE8484722CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.swift */,
+				FBE8484822CF1BDC0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.xib */,
+				FBE8484922CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.swift */,
+				FBE8484A22CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib */,
+				FBE8484B22CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.swift */,
+				FBE8484C22CF1BDC0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.xib */,
+				FBE8484D22CF1BDC0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.xib */,
+				FBE8484E22CF1BDC0083D66C /* GroupChannelIncomingUserMessageTableViewCell.xib */,
+				FBE8484F22CF1BDC0083D66C /* GroupChannelMessageTableViewCellDelegate.swift */,
+				FBE8485022CF1BDC0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift */,
+				FBE8485122CF1BDC0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.xib */,
+				FBE8485222CF1BDC0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.swift */,
+				FBE8485322CF1BDC0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.xib */,
+				FBE8485422CF1BDC0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		FBE8485622CF1BDD0083D66C /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8485722CF1BDD0083D66C /* Constants.swift */,
+				FBE8485822CF1BDD0083D66C /* CustomUI */,
+				FBE8485E22CF1BDD0083D66C /* String+SendBird.swift */,
+				FBE8485F22CF1BDD0083D66C /* NotificationDelegate.swift */,
+				FBE8486022CF1BDD0083D66C /* Utils */,
+				FBE8486322CF1BDD0083D66C /* PhotoViewer */,
+				FBE8486522CF1BDD0083D66C /* PhotosViewerController */,
+				FBE8486722CF1BDD0083D66C /* Array+SendBird.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		FBE8485822CF1BDD0083D66C /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8485922CF1BDD0083D66C /* CustomProgressCircle.swift */,
+				FBE8485A22CF1BDD0083D66C /* CustomButton.swift */,
+				FBE8485B22CF1BDD0083D66C /* FLAnimatedImageView+ImageLoader.swift */,
+				FBE8485C22CF1BDD0083D66C /* CustomTextField.swift */,
+				FBE8485D22CF1BDD0083D66C /* CustomActivityIndicatorView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		FBE8486022CF1BDD0083D66C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8486122CF1BDD0083D66C /* UIViewController+Utils.swift */,
+				FBE8486222CF1BDD0083D66C /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FBE8486322CF1BDD0083D66C /* PhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8486422CF1BDD0083D66C /* PhotoViewer.swift */,
+			);
+			path = PhotoViewer;
+			sourceTree = "<group>";
+		};
+		FBE8486522CF1BDD0083D66C /* PhotosViewerController */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8486622CF1BDD0083D66C /* CustomPhotosViewController.swift */,
+			);
+			path = PhotosViewerController;
+			sourceTree = "<group>";
+		};
+		FBE8486822CF1BDD0083D66C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8486922CF1BDD0083D66C /* SettingsTimePickerDelegate.swift */,
+				FBE8486A22CF1BDD0083D66C /* SettingsNavigationController.swift */,
+				FBE8486B22CF1BDD0083D66C /* SettingsBlockedUserListViewController.xib */,
+				FBE8486C22CF1BDD0083D66C /* UserProfileImageNameSettingDelegate.swift */,
+				FBE8486D22CF1BDD0083D66C /* SettingsTableViewCellDelegate.swift */,
+				FBE8486E22CF1BDD0083D66C /* UpdateUserProfileViewController.swift */,
+				FBE8486F22CF1BDD0083D66C /* UpdateUserProfileViewController.xib */,
+				FBE8487022CF1BDD0083D66C /* ViewCells */,
+				FBE8488522CF1BDD0083D66C /* SettingsViewController.xib */,
+				FBE8488622CF1BDD0083D66C /* SettingsBlockedUserListViewController.swift */,
+				FBE8488722CF1BDD0083D66C /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FBE8487022CF1BDD0083D66C /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8487122CF1BDD0083D66C /* SettingsSignOutTableViewCell.xib */,
+				FBE8487222CF1BDD0083D66C /* SettingsSignOutTableViewCell.swift */,
+				FBE8487322CF1BDD0083D66C /* SettingsTimePickerTableViewCell.xib */,
+				FBE8487422CF1BDD0083D66C /* BlockedUserTableViewCell.xib */,
+				FBE8487522CF1BDD0083D66C /* SettingsVersionTableViewCell.swift */,
+				FBE8487622CF1BDD0083D66C /* SettingsVersionTableViewCell.xib */,
+				FBE8487722CF1BDD0083D66C /* SettingsTimeTableViewCell.swift */,
+				FBE8487822CF1BDD0083D66C /* SettingsSectionTableViewCell.swift */,
+				FBE8487922CF1BDD0083D66C /* BlockedUserTableViewCell.swift */,
+				FBE8487A22CF1BDD0083D66C /* SettingsSwitchTableViewCell.swift */,
+				FBE8487B22CF1BDD0083D66C /* SettingsSectionTableViewCell.xib */,
+				FBE8487C22CF1BDD0083D66C /* SettingsSwitchTableViewCell.xib */,
+				FBE8487D22CF1BDD0083D66C /* SettingsGeneralTableViewCell.xib */,
+				FBE8487E22CF1BDD0083D66C /* SettingsProfileTableViewCell.swift */,
+				FBE8487F22CF1BDD0083D66C /* SettingsProfileTableViewCell.xib */,
+				FBE8488022CF1BDD0083D66C /* SettingsDescriptionTableViewCell.xib */,
+				FBE8488122CF1BDD0083D66C /* SettingsTimePickerTableViewCell.swift */,
+				FBE8488222CF1BDD0083D66C /* SettingsDescriptionTableViewCell.swift */,
+				FBE8488322CF1BDD0083D66C /* SettingsGeneralTableViewCell.swift */,
+				FBE8488422CF1BDD0083D66C /* SettingsTimeTableViewCell.xib */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		FBE8488822CF1BDD0083D66C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8488922CF1BDD0083D66C /* loading_typing.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		FBE848F422CF1CF40083D66C /* UserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				FBE848FA22CF1D4C0083D66C /* UserProfileViewController.swift */,
+				FBE848FB22CF1D4C0083D66C /* UserProfileViewController.xib */,
+			);
+			path = UserProfile;
+			sourceTree = "<group>";
+		};
+		FBE848FE22CF1EB80083D66C /* CreateGroupChannel */ = {
+			isa = PBXGroup;
+			children = (
+				FBE848FF22CF1EB80083D66C /* CreateGroupChannelViewControllerA.xib */,
+				FBE8490022CF1EB80083D66C /* CreateGroupChannelViewControllerB.xib */,
+				FBE8490122CF1EB80083D66C /* CreateGroupChannelNavigationController.swift */,
+				FBE8490222CF1EB80083D66C /* CreateGroupChannelViewControllerDelegate.swift */,
+				FBE8490322CF1EB80083D66C /* ViewCells */,
+				FBE8490622CF1EB80083D66C /* CreateGroupChannelViewControllerB.swift */,
+				FBE8490722CF1EB80083D66C /* CreateGroupChannelViewControllerA.swift */,
+			);
+			path = CreateGroupChannel;
+			sourceTree = "<group>";
+		};
+		FBE8490322CF1EB80083D66C /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FBE8490422CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.swift */,
+				FBE8490522CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.xib */,
+			);
+			path = ViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +808,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE848F222CF1BDD0083D66C /* loading_typing.gif in Resources */,
+				FBE8489D22CF1BDD0083D66C /* GroupChannelSettingsViewController.xib in Resources */,
+				FBE848E622CF1BDD0083D66C /* SettingsSwitchTableViewCell.xib in Resources */,
+				FBE848DD22CF1BDD0083D66C /* SettingsTimePickerTableViewCell.xib in Resources */,
+				FBE848E922CF1BDD0083D66C /* SettingsProfileTableViewCell.xib in Resources */,
+				FBE8489322CF1BDD0083D66C /* GroupChannelsViewController.xib in Resources */,
+				FBE848AA22CF1BDD0083D66C /* GroupChannelSettingsMemberTableViewCell.xib in Resources */,
+				FBE848A722CF1BDD0083D66C /* GroupChannelInviteMemberTableViewCell.xib in Resources */,
+				FBE8489422CF1BDD0083D66C /* GroupChannelTableViewCell.xib in Resources */,
+				FBE848EE22CF1BDD0083D66C /* SettingsTimeTableViewCell.xib in Resources */,
+				FBE8489822CF1BDD0083D66C /* GroupChannelCoverImageNameSettingViewController.xib in Resources */,
+				FBE848E722CF1BDD0083D66C /* SettingsGeneralTableViewCell.xib in Resources */,
 				FB392FD822CC4002007F0BA9 /* LaunchScreen.storyboard in Resources */,
+				FBE848A922CF1BDD0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.xib in Resources */,
+				FBE848BE22CF1BDD0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.xib in Resources */,
+				FBE848EA22CF1BDD0083D66C /* SettingsDescriptionTableViewCell.xib in Resources */,
+				FBE848BD22CF1BDD0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.xib in Resources */,
+				FBE848B922CF1BDD0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.xib in Resources */,
+				FBE848DA22CF1BDD0083D66C /* UpdateUserProfileViewController.xib in Resources */,
+				FBE8490822CF1EB80083D66C /* CreateGroupChannelViewControllerA.xib in Resources */,
+				FBE848BB22CF1BDD0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.xib in Resources */,
+				FBE848EF22CF1BDD0083D66C /* SettingsViewController.xib in Resources */,
+				FBE848A022CF1BDD0083D66C /* GroupChannelSettingsNotificationsTableViewCell.xib in Resources */,
+				FBE848BF22CF1BDD0083D66C /* GroupChannelIncomingUserMessageTableViewCell.xib in Resources */,
+				FBE848B122CF1BDD0083D66C /* GroupChannelChatViewController.xib in Resources */,
+				FBE848B722CF1BDD0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.xib in Resources */,
+				FBE848E522CF1BDD0083D66C /* SettingsSectionTableViewCell.xib in Resources */,
+				FBE848FD22CF1D4C0083D66C /* UserProfileViewController.xib in Resources */,
+				FBE8490922CF1EB80083D66C /* CreateGroupChannelViewControllerB.xib in Resources */,
+				FBE848D622CF1BDD0083D66C /* SettingsBlockedUserListViewController.xib in Resources */,
+				FBE8490D22CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.xib in Resources */,
 				FB392FD522CC4002007F0BA9 /* Assets.xcassets in Resources */,
+				FBE848DE22CF1BDD0083D66C /* BlockedUserTableViewCell.xib in Resources */,
+				FBE848C422CF1BDD0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.xib in Resources */,
+				FBE848AE22CF1BDD0083D66C /* GroupChannelSettingsBlankTableViewCell.xib in Resources */,
+				FBE848C222CF1BDD0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.xib in Resources */,
+				FBE848C522CF1BDD0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.xib in Resources */,
+				FBE848AF22CF1BDD0083D66C /* GroupChannelInviteMemberViewController.xib in Resources */,
+				FBE848AD22CF1BDD0083D66C /* GroupChannelSettingsSectionTableViewCell.xib in Resources */,
+				FBE848DB22CF1BDD0083D66C /* SettingsSignOutTableViewCell.xib in Resources */,
 				FB392FD022CC4000007F0BA9 /* Main.storyboard in Resources */,
+				FBE848AC22CF1BDD0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.xib in Resources */,
+				FBE848E022CF1BDD0083D66C /* SettingsVersionTableViewCell.xib in Resources */,
+				FBE848AB22CF1BDD0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +979,79 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE848A522CF1BDD0083D66C /* GroupChannelSettingsMemberTableViewCell.swift in Sources */,
+				FBE848C722CF1BDD0083D66C /* Constants.swift in Sources */,
+				FBE848B622CF1BDD0083D66C /* GroupChannelOutgoingGeneralFileMessageTableViewCell.swift in Sources */,
+				FBE8488B22CF1BDD0083D66C /* LoginViewController.swift in Sources */,
+				FBE848DF22CF1BDD0083D66C /* SettingsVersionTableViewCell.swift in Sources */,
+				FBE848FC22CF1D4C0083D66C /* UserProfileViewController.swift in Sources */,
+				FBE848C922CF1BDD0083D66C /* CustomButton.swift in Sources */,
+				FBE848C122CF1BDD0083D66C /* GroupChannelOutgoingImageVideoFileMessageTableViewCell.swift in Sources */,
+				FBE8489922CF1BDD0083D66C /* GroupChannelCoverImageNameSettingDelegate.swift in Sources */,
+				FBE848A822CF1BDD0083D66C /* GroupChannelSettingsBlankTableViewCell.swift in Sources */,
+				FBE848D122CF1BDD0083D66C /* PhotoViewer.swift in Sources */,
+				FBE848A622CF1BDD0083D66C /* GroupChannelSettingsNotificationsTableViewCell.swift in Sources */,
+				FBE848BC22CF1BDD0083D66C /* GroupChannelIncomingGeneralFileMessageTableViewCell.swift in Sources */,
+				FBE848D922CF1BDD0083D66C /* UpdateUserProfileViewController.swift in Sources */,
+				FBE848B822CF1BDD0083D66C /* GroupChannelIncomingAudioFileMessageTableViewCell.swift in Sources */,
+				FBE8489A22CF1BDD0083D66C /* GroupChannelCoverImageNameSettingViewController.swift in Sources */,
+				FBE848D722CF1BDD0083D66C /* UserProfileImageNameSettingDelegate.swift in Sources */,
+				FBE8489F22CF1BDD0083D66C /* GroupChannelSettingsChannelCoverNameTableViewCell.swift in Sources */,
+				FBE848CC22CF1BDD0083D66C /* CustomActivityIndicatorView.swift in Sources */,
+				FBE848B022CF1BDD0083D66C /* GroupChannelSettingsDelegate.swift in Sources */,
+				FBE848F122CF1BDD0083D66C /* SettingsViewController.swift in Sources */,
+				FBE848CB22CF1BDD0083D66C /* CustomTextField.swift in Sources */,
+				FBE8489722CF1BDD0083D66C /* GroupChannelInviteMemberDelegate.swift in Sources */,
+				FBE8489522CF1BDD0083D66C /* GroupChannelTableViewCell.swift in Sources */,
+				FBE848C822CF1BDD0083D66C /* CustomProgressCircle.swift in Sources */,
+				FBE848F022CF1BDD0083D66C /* SettingsBlockedUserListViewController.swift in Sources */,
+				FBE848BA22CF1BDD0083D66C /* GroupChannelOutgoingUserMessageTableViewCell.swift in Sources */,
+				FBE8489E22CF1BDD0083D66C /* GroupChannelInviteMemberTableViewCell.swift in Sources */,
+				FBE848EC22CF1BDD0083D66C /* SettingsDescriptionTableViewCell.swift in Sources */,
+				FBE848E122CF1BDD0083D66C /* SettingsTimeTableViewCell.swift in Sources */,
+				FBE8488C22CF1BDD0083D66C /* DownloadManager.swift in Sources */,
+				FBE848C022CF1BDD0083D66C /* GroupChannelMessageTableViewCellDelegate.swift in Sources */,
+				FBE848DC22CF1BDD0083D66C /* SettingsSignOutTableViewCell.swift in Sources */,
+				FBE848A422CF1BDD0083D66C /* GroupChannelSettingsLeaveChatTableViewCell.swift in Sources */,
+				FBE8489022CF1BDD0083D66C /* Ponyo.xcdatamodeld in Sources */,
+				FBE848D522CF1BDD0083D66C /* SettingsNavigationController.swift in Sources */,
+				FBE848D222CF1BDD0083D66C /* CustomPhotosViewController.swift in Sources */,
+				FBE848CE22CF1BDD0083D66C /* NotificationDelegate.swift in Sources */,
+				FBE848B422CF1BDD0083D66C /* GroupChannelIncomingUserMessageTableViewCell.swift in Sources */,
+				FBE848D822CF1BDD0083D66C /* SettingsTableViewCellDelegate.swift in Sources */,
+				FBE8488D22CF1BDD0083D66C /* MainTabBarController.swift in Sources */,
+				FBE8489122CF1BDD0083D66C /* GroupChannelsViewController.swift in Sources */,
+				FBE8489C22CF1BDD0083D66C /* GroupChannelSettingsViewController.swift in Sources */,
+				FBE848E422CF1BDD0083D66C /* SettingsSwitchTableViewCell.swift in Sources */,
+				FBE848CD22CF1BDD0083D66C /* String+SendBird.swift in Sources */,
+				FBE848A222CF1BDD0083D66C /* GroupChannelSettingsSectionTableViewCell.swift in Sources */,
+				FBE848D322CF1BDD0083D66C /* Array+SendBird.swift in Sources */,
+				FBE8489622CF1BDD0083D66C /* GroupChannelsNavigationController.swift in Sources */,
+				FBE8490A22CF1EB80083D66C /* CreateGroupChannelNavigationController.swift in Sources */,
+				FBE848CA22CF1BDD0083D66C /* FLAnimatedImageView+ImageLoader.swift in Sources */,
+				FBE848CF22CF1BDD0083D66C /* UIViewController+Utils.swift in Sources */,
+				FBE848EB22CF1BDD0083D66C /* SettingsTimePickerTableViewCell.swift in Sources */,
+				FBE848E222CF1BDD0083D66C /* SettingsSectionTableViewCell.swift in Sources */,
+				FBE848B322CF1BDD0083D66C /* GroupChannelNeutralAdminMessageTableViewCell.swift in Sources */,
+				FBE848E822CF1BDD0083D66C /* SettingsProfileTableViewCell.swift in Sources */,
+				FBE848E322CF1BDD0083D66C /* BlockedUserTableViewCell.swift in Sources */,
+				FBE848A322CF1BDD0083D66C /* GroupChannelSettingsTableViewCellDelegate.swift in Sources */,
+				FBE848ED22CF1BDD0083D66C /* SettingsGeneralTableViewCell.swift in Sources */,
+				FBE8480822CF1B190083D66C /* LoginViewController.swift in Sources */,
+				FBE8490F22CF1EB80083D66C /* CreateGroupChannelViewControllerA.swift in Sources */,
+				FBE848A122CF1BDD0083D66C /* GroupChannelSettingsInviteMemberTableViewCell.swift in Sources */,
+				FBE848D422CF1BDD0083D66C /* SettingsTimePickerDelegate.swift in Sources */,
+				FBE848B522CF1BDD0083D66C /* GroupChannelOutgoingAudioFileMessageTableViewCell.swift in Sources */,
+				FBE848B222CF1BDD0083D66C /* GroupChannelChatViewController.swift in Sources */,
 				FB392FD322CC4000007F0BA9 /* Ponyo.xcdatamodeld in Sources */,
+				FBE848D022CF1BDD0083D66C /* Utils.swift in Sources */,
+				FBE8490B22CF1EB80083D66C /* CreateGroupChannelViewControllerDelegate.swift in Sources */,
 				FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */,
+				FBE8490C22CF1EB80083D66C /* SelectGroupChannelMemberTableViewCell.swift in Sources */,
+				FBE8489222CF1BDD0083D66C /* GroupChannelsUpdateListDelegate.swift in Sources */,
+				FBE8490E22CF1EB80083D66C /* CreateGroupChannelViewControllerB.swift in Sources */,
+				FBE848C322CF1BDD0083D66C /* GroupChannelIncomingImageVideoFileMessageTableViewCell.swift in Sources */,
+				FBE8489B22CF1BDD0083D66C /* GroupChannelInviteMemberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,6 +1390,16 @@
 				FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */,
 			);
 			currentVersion = FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */;
+			path = Ponyo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		FBE8481722CF1BDC0083D66C /* Ponyo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBE8481822CF1BDC0083D66C /* Ponyo.xcdatamodel */,
+			);
+			currentVersion = FBE8481822CF1BDC0083D66C /* Ponyo.xcdatamodel */;
 			path = Ponyo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
