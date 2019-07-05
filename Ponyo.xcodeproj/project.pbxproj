@@ -11,7 +11,6 @@
 		4C22AAA0C1FCF215E2585431 /* Pods_Ponyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F47DFEAC598AFE36C425EC /* Pods_Ponyo.framework */; };
 		D16FF751C3B5E3C5D4ED230E /* Pods_PonyoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35D68F9733BCF2C73D12A46E /* Pods_PonyoUITests.framework */; };
 		FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */; };
-		FB392FCD22CC4000007F0BA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB392FCC22CC4000007F0BA9 /* ViewController.swift */; };
 		FB392FD022CC4000007F0BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB392FCE22CC4000007F0BA9 /* Main.storyboard */; };
 		FB392FD322CC4000007F0BA9 /* Ponyo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB392FD122CC4000007F0BA9 /* Ponyo.xcdatamodeld */; };
 		FB392FD522CC4002007F0BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB392FD422CC4002007F0BA9 /* Assets.xcassets */; };
@@ -49,7 +48,6 @@
 		FADEB453BF45B9A9F5F4FBC6 /* Pods_PonyoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PonyoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB392FC722CC4000007F0BA9 /* Ponyo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponyo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB392FCC22CC4000007F0BA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB392FCF22CC4000007F0BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB392FD222CC4000007F0BA9 /* Ponyo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ponyo.xcdatamodel; sourceTree = "<group>"; };
 		FB392FD422CC4002007F0BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +59,7 @@
 		FB392FE922CC4002007F0BA9 /* PonyoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonyoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB392FED22CC4002007F0BA9 /* PonyoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PonyoUITests.swift; sourceTree = "<group>"; };
 		FB392FEF22CC4002007F0BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE8480622CF18EB0083D66C /* Ponyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ponyo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +138,8 @@
 		FB392FC922CC4000007F0BA9 /* Ponyo */ = {
 			isa = PBXGroup;
 			children = (
+				FBE8480622CF18EB0083D66C /* Ponyo.entitlements */,
 				FB392FCA22CC4000007F0BA9 /* AppDelegate.swift */,
-				FB392FCC22CC4000007F0BA9 /* ViewController.swift */,
 				FB392FCE22CC4000007F0BA9 /* Main.storyboard */,
 				FB392FD422CC4002007F0BA9 /* Assets.xcassets */,
 				FB392FD622CC4002007F0BA9 /* LaunchScreen.storyboard */,
@@ -240,6 +239,11 @@
 				TargetAttributes = {
 					FB392FC622CC4000007F0BA9 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					FB392FDD22CC4002007F0BA9 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -407,7 +411,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB392FD322CC4000007F0BA9 /* Ponyo.xcdatamodeld in Sources */,
-				FB392FCD22CC4000007F0BA9 /* ViewController.swift in Sources */,
 				FB392FCB22CC4000007F0BA9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ponyo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -603,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Ponyo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
